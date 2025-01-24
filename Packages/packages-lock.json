@@ -105,6 +105,7 @@
         "com.unity.modules.ai": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
     "com.normalvr.normcore": {
       "version": "2.13.2",
       "depth": 0,
