@@ -348,10 +348,7 @@ MonoBehaviour:
   fruitSpawns:
   - {fileID: 3947054603564913427}
   - {fileID: 5467188165239543224}
-  - {fileID: 2139774196393800724}
   - {fileID: 5926852143453547105}
-  - {fileID: 6234278861661293537}
-  - {fileID: 8676939786610791435}
 --- !u!54 &3586287969017391949
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -670,6 +667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fruit6
       objectReference: {fileID: 0}
+    - target: {fileID: 341422631196443793, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6067813f58740e64e9459d8e59602926, type: 3}
       propertyPath: m_Name
       value: tomato-with-tomato
@@ -681,6 +682,10 @@ PrefabInstance:
     - target: {fileID: 3049727812686699387, guid: 6067813f58740e64e9459d8e59602926, type: 3}
       propertyPath: m_Name
       value: fruit5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3049727812686699387, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3356936881883462395, guid: 6067813f58740e64e9459d8e59602926, type: 3}
       propertyPath: m_Name
@@ -694,6 +699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fruit3
       objectReference: {fileID: 0}
+    - target: {fileID: 7017828243143451790, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7526801169473062432, guid: 6067813f58740e64e9459d8e59602926, type: 3}
     - {fileID: -4297790358194651063, guid: 6067813f58740e64e9459d8e59602926, type: 3}
@@ -701,15 +710,16 @@ PrefabInstance:
     - {fileID: -3820897283786690115, guid: 6067813f58740e64e9459d8e59602926, type: 3}
     - {fileID: 8529167081934994371, guid: 6067813f58740e64e9459d8e59602926, type: 3}
     - {fileID: -1047073510519539344, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+    - {fileID: -4072103116415183881, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+    - {fileID: 6221428670433384426, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+    - {fileID: 5534320886019594480, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+    - {fileID: -3427434247824304557, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+    - {fileID: -2809911652250646818, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+    - {fileID: -3971753979567611022, guid: 6067813f58740e64e9459d8e59602926, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6067813f58740e64e9459d8e59602926, type: 3}
---- !u!1 &2139774196393800724 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7017828243143451790, guid: 6067813f58740e64e9459d8e59602926, type: 3}
-  m_PrefabInstance: {fileID: 8995470564707373210}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3947054603564913427 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5336930409719726985, guid: 6067813f58740e64e9459d8e59602926, type: 3}
@@ -723,16 +733,6 @@ GameObject:
 --- !u!1 &5926852143453547105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3356936881883462395, guid: 6067813f58740e64e9459d8e59602926, type: 3}
-  m_PrefabInstance: {fileID: 8995470564707373210}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6234278861661293537 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3049727812686699387, guid: 6067813f58740e64e9459d8e59602926, type: 3}
-  m_PrefabInstance: {fileID: 8995470564707373210}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8676939786610791435 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 341422631196443793, guid: 6067813f58740e64e9459d8e59602926, type: 3}
   m_PrefabInstance: {fileID: 8995470564707373210}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &8889241091579115377 stripped
