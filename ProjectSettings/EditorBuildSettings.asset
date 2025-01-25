@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Meta MR Utility Kit/71.0.0/Scene Decorator/SceneDecorator.unity
     guid: 74ec1332800b4dd44915943d3bd65e1e
+  - enabled: 0
+    path: Assets/Samples/Meta MR Utility Kit/71.0.0/Multi Spawn/FindMultiSpawn.unity
+    guid: 2c7c1aaff481cd1458b64e16d038f041
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
