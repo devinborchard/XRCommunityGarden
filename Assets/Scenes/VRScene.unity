@@ -5628,6 +5628,7 @@ GameObject:
   - component: {fileID: 240718611}
   - component: {fileID: 240718610}
   - component: {fileID: 240718609}
+  - component: {fileID: 240718612}
   m_Layer: 0
   m_Name: '[BuildingBlock] Cube Kin'
   m_TagString: Untagged
@@ -5819,6 +5820,19 @@ MonoBehaviour:
   - {fileID: 240718610}
   - {fileID: 240718609}
   ForceRemoteRenderTimeframe: 0
+--- !u!114 &240718612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240718602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413bd4e9cbbc96b46ac5a1d62a4105d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseGravity: 0
 --- !u!1 &256044014
 GameObject:
   m_ObjectHideFlags: 0
@@ -13116,7 +13130,6 @@ Transform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1790109874}
   - {fileID: 1424526059}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37968,102 +37981,6 @@ Transform:
   - {fileID: 52866483}
   m_Father: {fileID: 1678540412}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1790109873
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1790109874}
-  - component: {fileID: 1790109877}
-  - component: {fileID: 1790109876}
-  - component: {fileID: 1790109875}
-  m_Layer: 0
-  m_Name: '[BuildingBlock] TouchHandGrab'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1790109874
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790109873}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 543004071}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1790109875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790109873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cb4a09355f9dc244bfbcd2ac9208ef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
-  _data: {fileID: 0}
-  _pointableElement: {fileID: 1790109876}
-  _boundsCollider: {fileID: 543004067}
-  _colliders:
-  - {fileID: 543004065}
---- !u!114 &1790109876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790109873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _transferOnSecondSelection: 1
-  _addNewPointsToFront: 0
-  _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
-  _targetTransform: {fileID: 543004071}
-  _maxGrabPoints: -1
-  _rigidbody: {fileID: 543004066}
-  _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
---- !u!114 &1790109877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790109873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blockId: 4e14e0ba-51f2-4a5c-a822-e304bf36d48c
-  instanceId: 8ecd2462-4542-4033-8798-26bff381df7a
-  version: 1
-  installationRoutineCheckpoint:
-    _installationRoutineId: fb25cac7-8f37-455d-ac01-3fa41a1be37d
-    _installationVariants:
-    - _memberName: mode
-      _value: '{"value__":0}'
 --- !u!1 &1790231227
 GameObject:
   m_ObjectHideFlags: 0
