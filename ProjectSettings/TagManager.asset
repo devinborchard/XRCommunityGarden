@@ -27,6 +27,13 @@ TagManager:
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
   - QDSUISection
+  - water
+  - plantable
+  - seed
+  - plant
+  - trashZone
+  - gardenBed
+  - harvestable
   layers:
   - Default
   - TransparentFX
