@@ -45,8 +45,7 @@ public class TimeCycle : MonoBehaviour
         }
     }
 
-    void UpdateLight(){
-        float percentOfDay = timeOfDay/timeForDay;
+    void UpdateLight(float percentOfDay){
         float lightAngle = percentOfDay*360;
 
         Vector3 currentRotation = transform.eulerAngles;
@@ -56,11 +55,23 @@ public class TimeCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        time = time + Time.deltaTime;
+        float percentOfDay = timeOfDay/timeForDay;
 
-        timeOfDay = timeOfDay + Time.deltaTime;
+        if(percentOfDay > 0.55f){
+            time = time + Time.deltaTime * 2.5f;
+            timeOfDay = timeOfDay + Time.deltaTime * 2.5f;
 
-        UpdateLight();
+
+        }
+        else{
+            time = time + Time.deltaTime;
+
+            timeOfDay = timeOfDay + Time.deltaTime;
+        }
+        
+
+
+        UpdateLight(percentOfDay);
 
         if(timeOfDay > timeForDay){
             timeOfDay = 0;
