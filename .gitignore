@@ -80,3 +80,4 @@ crashlytics-build.properties
 
 /[Pp]rojectSettings/*.asset
 /[Pp]rojectSettings/*.json
+/[Pp]rojectSettings/GraphicsSettings.asset
