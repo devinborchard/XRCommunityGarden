@@ -75,6 +75,8 @@ crashlytics-build.properties
 # Manually Added
 /[Aa]ssets/Settings/Project Configuration/*.asset
 /[Aa]ssets/Resources/*.json
+/[Aa]ssets/UniversalRenderPipelineGlobalSettings.asset
+/[Aa]ssets/UniversalRenderPipelineGlobalSettings.asset.meta
 
 /[Pp]rojectSettings/*.asset
 /[Pp]rojectSettings/*.json

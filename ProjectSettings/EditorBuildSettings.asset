@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Meta MR Utility Kit/71.0.0/Basic/MRUKBase.unity
     guid: 21549dbcb1294de4fafd68fca195dda5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CleanUp.unity
     guid: 8d893039316144a3dafbbed725d84a72
+  - enabled: 1
+    path: Assets/Scenes/VRSceneAssetTest.unity
+    guid: 7db37a164240a994c9c82915ff2f2178
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

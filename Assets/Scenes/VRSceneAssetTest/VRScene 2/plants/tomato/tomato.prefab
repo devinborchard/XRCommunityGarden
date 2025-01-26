@@ -1509,6 +1509,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: fruit2
       objectReference: {fileID: 0}
+    - target: {fileID: -2706673601807362201, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2706673601807362201, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2706673601807362201, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2706673601807362201, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2706673601807362201, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2706673601807362201, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 341422631196443793, guid: 6067813f58740e64e9459d8e59602926, type: 3}
       propertyPath: m_Name
       value: fruit6
@@ -1537,9 +1561,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: fruit4
       objectReference: {fileID: 0}
+    - target: {fileID: 4631249970820806597, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631249970820806597, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631249970820806597, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631249970820806597, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631249970820806597, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631249970820806597, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5336930409719726985, guid: 6067813f58740e64e9459d8e59602926, type: 3}
       propertyPath: m_Name
       value: fruit1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475062984420153195, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475062984420153195, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475062984420153195, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475062984420153195, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475062984420153195, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475062984420153195, guid: 6067813f58740e64e9459d8e59602926, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7017828243143451790, guid: 6067813f58740e64e9459d8e59602926, type: 3}
       propertyPath: m_Name

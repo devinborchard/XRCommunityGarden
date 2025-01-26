@@ -251,7 +251,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.02, y: 0.02, z: 0.02}
+  m_Size: {x: 0.03, y: 0.03, z: 0.03}
   m_Center: {x: 0, y: 0.0009063333, z: 0}
 --- !u!114 &8569154034175317390
 MonoBehaviour:
@@ -340,6 +340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2520d684c36586479f7c463565dc22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stored: 1
 --- !u!1001 &4150233241819716399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -350,15 +351,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f9d9dfe102977274ab1c4255e306fe2c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9d9dfe102977274ab1c4255e306fe2c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9d9dfe102977274ab1c4255e306fe2c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9d9dfe102977274ab1c4255e306fe2c, type: 3}
       propertyPath: m_LocalPosition.x
