@@ -22426,31 +22426,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.903
+      value: -0.82546425
       objectReference: {fileID: 0}
     - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18609363
+      value: 0.2102
       objectReference: {fileID: 0}
     - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.211
+      value: -0.358
       objectReference: {fileID: 0}
     - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
-      propertyPath: m_LocalRotation.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22458,7 +22458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4625497543237724543, guid: 65fbef8a1b28e4384925bb8aa561ce35, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -29031,6 +29031,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2108824789}
     m_Modifications:
+    - target: {fileID: 651331465008497165, guid: cbe51ad8adf404d1eac916748e6061a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.18
+      objectReference: {fileID: 0}
     - target: {fileID: 1609465052203753877, guid: cbe51ad8adf404d1eac916748e6061a8, type: 3}
       propertyPath: m_Name
       value: Plant
@@ -29057,7 +29061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1850566146334100820, guid: cbe51ad8adf404d1eac916748e6061a8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.185
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1850566146334100820, guid: cbe51ad8adf404d1eac916748e6061a8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29086,6 +29090,11 @@ PrefabInstance:
     - target: {fileID: 1850566146334100820, guid: cbe51ad8adf404d1eac916748e6061a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934662705939729302, guid: cbe51ad8adf404d1eac916748e6061a8, type: 3}
+      propertyPath: m_text
+      value: When planted side by side, companion plants help one another. Explore
+        companion plant combinations that work well for community gardens.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53637,6 +53646,89 @@ Transform:
   - {fileID: 1513321615}
   m_Father: {fileID: 1487685522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1931271613
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2108824789}
+    m_Modifications:
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18609363
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.211
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689482828567090554, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_text
+      value: Aim to plant only annuals (not perennials), so the garden plots can
+        be cleared in the winter. Then there will be no waste for the next person
+        using the garden in the spring.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7573526761392647096, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      propertyPath: m_Name
+      value: Harvest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9178555258469099264, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+--- !u!4 &1931271614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5129665121337905157, guid: 4c683b52266c1429eb46ae2ebf5255f1, type: 3}
+  m_PrefabInstance: {fileID: 1931271613}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1936471758
 GameObject:
   m_ObjectHideFlags: 0
@@ -58765,6 +58857,7 @@ Transform:
   - {fileID: 890236066}
   - {fileID: 657514715}
   - {fileID: 131004058}
+  - {fileID: 1931271614}
   - {fileID: 843162891}
   - {fileID: 1610138036}
   - {fileID: 867621875}
