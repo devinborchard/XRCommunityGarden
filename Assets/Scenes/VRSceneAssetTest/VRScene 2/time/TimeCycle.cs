@@ -33,7 +33,7 @@ public class TimeCycle : MonoBehaviour
     }
 
     void NewDay(){
-        Debug.Log("new Day");
+        // Debug.Log("new Day");
         GameObject[] plants = GameObject.FindGameObjectsWithTag("plant");
         for(int i = 0; i < plants.Length; i++){
             GrowPlant(plants[i]);

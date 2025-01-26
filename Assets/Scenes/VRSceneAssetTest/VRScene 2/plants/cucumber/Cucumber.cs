@@ -11,10 +11,10 @@ public class Cucumber : Fruit
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"READY: {readyForHarvest}");
-        Debug.Log($"UPDATED: {updated}");
-        if(readyForHarvest && updated == false){
-            Debug.Log("GROW FURUIT");
+        // Debug.Log($"READY: {readyForHarvest}");
+        // Debug.Log($"UPDATED: {updated}");
+        if(readyForHarvest && updated == false && Watered()){
+            // Debug.Log("GROW FURUIT");
             GrowFruit();
         }
     }
