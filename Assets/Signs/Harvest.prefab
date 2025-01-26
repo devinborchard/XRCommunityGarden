@@ -313,8 +313,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Plant only annuals (no perennials) so the garden plots can be cleared
-    in the winter for the next person using it in the spring with no waste.
+  m_text: 'Aim to plant only annuals (not perennials), so the garden plots can be
+    cleared in the winter. Then there will be no waste for the next person using
+    the garden in the spring.
 
 '
   m_isRightToLeft: 0

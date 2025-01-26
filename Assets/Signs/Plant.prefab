@@ -211,9 +211,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Plant only annuals (not perennials), so the garden plots can be cleared
-    in the winter. Then there will be no waste for the next person using the garden
-    in the spring.
+  m_text: 'When planted side by side, companion plants help one another. Explore
+    companion plant combinations that work well for community gardens.
 
 '
   m_isRightToLeft: 0
