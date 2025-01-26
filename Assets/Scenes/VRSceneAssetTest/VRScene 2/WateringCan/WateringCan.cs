@@ -15,6 +15,8 @@ public class WateringCan : MonoBehaviour
     public Vector3 minScale = new Vector3(0.8f, 0.8f, 0.8f); // Minimum scale
     public Vector3 maxScale = new Vector3(1.5f, 1.5f, 1.5f); // Maximum scale
 
+    AudioSource audio = gameObject.GetComponent<AudioSource>();
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -66,6 +68,9 @@ public class WateringCan : MonoBehaviour
 
         if(watering){
             Watering();
+            audio.Play();
+        } else {
+            audio.Stop();
         }
     }
 }
