@@ -13,15 +13,6 @@ public class Trash : MonoBehaviour
 
         if (other.CompareTag("trashZone"))
         {
-            GameObject[] trash = GameObject.FindGameObjectsWithTag("trash");
-            if (trash.Length - 1 == 0) {
-              Debug.Log("All Trash trashed");
-            }
-
-            AudioSource audio = other.gameObject.GetComponent<AudioSource>();
-            Debug.Log(audio);
-            audio.Play();
-            
             Trashed();
         }
     }

@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class TrashZone : MonoBehaviour
 {
+
+    [SerializeField]
+    public Animator grow;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,12 +23,17 @@ public class TrashZone : MonoBehaviour
         if (other.CompareTag("trash"))
         {
             GameObject[] trash = GameObject.FindGameObjectsWithTag("trash");
-            if (trash.Length - 1 == 0) {
-              Debug.Log("All Trash trashed");
-            }
-
             AudioSource audio = gameObject.GetComponent<AudioSource>();
             audio.Play();
+
+            if (trash.Length - 1 == 0) {
+              Animator shrink = gameObject.GetComponentInParent<Animator>();
+              shrink.SetTrigger("ShrinkTrigger");
+              Debug.Log("All Trash trashed");
+              grow.SetTrigger("GrowTrigger");
+            }
+
+            
         }
     }
 }
