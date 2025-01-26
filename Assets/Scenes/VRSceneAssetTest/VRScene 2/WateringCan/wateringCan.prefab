@@ -302,7 +302,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
@@ -576,7 +576,6 @@ GameObject:
   - component: {fileID: 1902575548071822084}
   - component: {fileID: 2275273217789666027}
   - component: {fileID: 8172687185992634620}
-  - component: {fileID: 7010667146493941016}
   - component: {fileID: 88868296672273493}
   - component: {fileID: 47421728321868247}
   - component: {fileID: 6623733236659306028}
@@ -653,27 +652,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &7010667146493941016
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5652847796589388551}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &88868296672273493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1029,7 +1007,6 @@ GameObject:
   - component: {fileID: 6686499022617305245}
   - component: {fileID: 6498280129327604175}
   - component: {fileID: 6075988296014309817}
-  - component: {fileID: 7306927412869770750}
   - component: {fileID: 7945586512009529413}
   - component: {fileID: 1338100449473624501}
   - component: {fileID: 2379530325795101436}
@@ -1106,27 +1083,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &7306927412869770750
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8964743364011819419}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7945586512009529413
 MonoBehaviour:
   m_ObjectHideFlags: 0
