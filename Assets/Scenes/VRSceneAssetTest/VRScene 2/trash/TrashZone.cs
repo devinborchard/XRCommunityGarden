@@ -1,10 +1,11 @@
 using UnityEngine;
+using Fusion;
 
 public class TrashZone : MonoBehaviour
 {
 
     [SerializeField]
-    public Animator grow;
+    public NetworkMecanimAnimator grow;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,7 +28,7 @@ public class TrashZone : MonoBehaviour
             audio.Play();
 
             if (trash.Length - 1 == 0) {
-              Animator shrink = gameObject.GetComponentInParent<Animator>();
+              NetworkMecanimAnimator shrink = gameObject.GetComponentInParent<NetworkMecanimAnimator>();
               shrink.SetTrigger("ShrinkTrigger");
               Debug.Log("All Trash trashed");
               grow.SetTrigger("GrowTrigger");
