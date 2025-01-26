@@ -29,7 +29,7 @@ public class Seed : MonoBehaviour
     {
         // Log the name of the object this GameObject collided with
         // Debug.Log($"Collided with {collision.gameObject.name}");
-        if (collision.gameObject.tag == "water"){
+        if (collision.gameObject.tag == "water" && planted){
             Water();
         }
 
